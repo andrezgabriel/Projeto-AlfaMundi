@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jogo das Sílabas - AlfaMundi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Monte a Palavra De Acordo Com a Imagem!</h1>
+    <img src="" alt="Imagem da palavra" id="imagem-palavra" />
+    
+    <div class="silabas" id="silabas-container">
+      <!-- Sílabas vão aparecer aqui -->
+    </div>
+
+    <div class="resposta">
+      <input type="text" id="resposta" placeholder="Clique nas sílabas para formar a palavra" readonly />
+      <button id="verificar">Verificar</button>
+      <button id="reiniciar">Reiniciar Palavra</button>
+    </div>
+     
+    <div id="pontuacao" style="font-size: 20px; margin-bottom: 10px; color: #000000;">Pontos: 0</div>
+
+
+
+    <div class="navegacao">
+      <button id="anterior" class="seta">⬅️</button>
+      <button id="proxima" class="seta">➡️</button>
+    </div>
+
+    <div id="feedback"></div>
+  </div>
+
+  <!-- Sons -->
+  <audio id="som-silaba" src="https://actions.google.com/sounds/v1/cartoon/wood_plank_flicks.ogg"></audio>
+  <audio id="som-sucesso" src="aplauso.mp3"></audio>
+  <audio id="som-erro" src="https://actions.google.com/sounds/v1/cartoon/tympani_bing.ogg"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
