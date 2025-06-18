@@ -21,7 +21,7 @@ const palavras = [
   { palavra: 'Tijolo', silabas: ['ti', 'jo', 'lo'], img: 'imagens/tijolo.png' },
   { palavra: 'Uva', silabas: ['u', 'va'], img: 'imagens/uva.png' },
   { palavra: 'Vaca', silabas: ['va', 'ca'], img: 'imagens/vaca.jpg' },
-  { palavra: 'Walffer', silabas: ['wa', 'fer'], img: 'imagens/wafer.webp' },
+  { palavra: 'wafer', silabas: ['wa', 'fer'], img: 'imagens/wafer.webp' },
   { palavra: 'Xícara', silabas: ['xí', 'ca', 'ra'], img: 'imagens/xicara.jpg' },
   { palavra: 'Yakult', silabas: ['ya', 'kult'], img: 'imagens/yakult.png' },
   { palavra: 'Zebra', silabas: ['ze', 'bra'], img: 'imagens/zebra.webp' }
