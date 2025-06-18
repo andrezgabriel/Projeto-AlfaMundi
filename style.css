@@ -17,8 +17,8 @@ body {
   text-align: center;
   max-width: 600px;
   width: 100%;
-  height: calc(100vh - 20px); /* altura total da tela menos 10px em cima e 10px embaixo */
-  margin: 10px auto;          /* 10px no topo e base, centralizado horizontalmente */
+  height: calc(100vh - 20px);
+  margin: 10px auto;
   animation: fadeIn 1s ease-in-out;
 }
 
@@ -63,6 +63,7 @@ img {
   cursor: pointer;
   transition: transform 0.2s ease;
   user-select: none;
+  font-family: Arial, sans-serif; /* ✅ Arial aplicada aqui */
 }
 
 .silaba:hover {
